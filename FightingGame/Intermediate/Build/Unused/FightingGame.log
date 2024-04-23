@@ -1,0 +1,15 @@
+﻿  Building FightingGameEditor...
+  Using Visual Studio 2019 14.29.30153 toolchain (Z:\VisualStudio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 4 actions with 12 processes...
+    [1/4] FightingGameCharacter.cpp
+Z:\Unreal Projects\FightingGame\Source\FightingGame\FightingGameCharacter.h(44): warning C4263: 'void AFightingGameCharacter::TakeDamage(float)': member function does not override any base class virtual member function
+Z:\Unreal Projects\FightingGame\Source\FightingGame\FightingGameCharacter.h(58): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+    Z:\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(247): note: see declaration of 'APawn::TakeDamage'
+    Z:\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/PlayerController.h(31): note: see declaration of 'APawn'
+    [2/4] UE4Editor-FightingGame-0003.lib
+       Creating library Z:\Unreal Projects\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-0003.lib and object Z:\Unreal Projects\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-0003.exp
+    [3/4] UE4Editor-FightingGame-0003.dll
+       Creating library Z:\Unreal Projects\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-0003.suppressed.lib and object Z:\Unreal Projects\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-0003.suppressed.exp
+    [4/4] FightingGameEditor.target
+  Total time in Parallel executor: 1.22 seconds
+  Total execution time: 1.70 seconds

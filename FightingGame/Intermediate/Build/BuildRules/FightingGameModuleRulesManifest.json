@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"Z:\\Unreal Projects\\FightingGame\\Source\\FightingGame\\FightingGame.Build.cs",
+		"Z:\\Unreal Projects\\FightingGame\\Source\\FightingGame.Target.cs",
+		"Z:\\Unreal Projects\\FightingGame\\Source\\FightingGameEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.2"
+}

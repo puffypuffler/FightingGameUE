@@ -1,0 +1,2 @@
+Z:\Unreal Projects\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\Definitions.FightingGame.h
+Z:\Unreal Projects\FightingGame\Source\FightingGame\FightingGame.h
