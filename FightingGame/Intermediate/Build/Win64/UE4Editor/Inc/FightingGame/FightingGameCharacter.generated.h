@@ -61,7 +61,8 @@ public: \
 #define FightingGame_Source_FightingGame_FightingGameCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__SideViewCameraComponent() { return STRUCT_OFFSET(AFightingGameCharacter, SideViewCameraComponent); } \
 	FORCEINLINE static uint32 __PPO__CameraBoom() { return STRUCT_OFFSET(AFightingGameCharacter, CameraBoom); } \
-	FORCEINLINE static uint32 __PPO__playerHealth() { return STRUCT_OFFSET(AFightingGameCharacter, playerHealth); }
+	FORCEINLINE static uint32 __PPO__playerHealth() { return STRUCT_OFFSET(AFightingGameCharacter, playerHealth); } \
+	FORCEINLINE static uint32 __PPO__wasFirstAttackUsed() { return STRUCT_OFFSET(AFightingGameCharacter, wasFirstAttackUsed); }
 
 
 #define FightingGame_Source_FightingGame_FightingGameCharacter_h_9_PROLOG

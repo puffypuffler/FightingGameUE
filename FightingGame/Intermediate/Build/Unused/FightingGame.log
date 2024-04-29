@@ -1,15 +1,37 @@
-﻿  Building FightingGameEditor...
+﻿  Cleaning FightingGameEditor and UnrealHeaderTool binaries...
+  Using 'git status' to determine working set for adaptive non-unity build (Z:\Unreal Projects\FightingGameUE).
+  Creating makefile for FightingGameEditor (no existing makefile)
+  Parsing headers for FightingGameEditor
+    Running UnrealHeaderTool "Z:\Unreal Projects\FightingGameUE\FightingGame\FightingGame.uproject" "Z:\Unreal Projects\FightingGameUE\FightingGame\Intermediate\Build\Win64\FightingGameEditor\Development\FightingGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\hadik\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  LogInit: Display: Loading text-based GConfig....
+  Reflection code generated for FightingGameEditor in 7.3184204 seconds
+  Building FightingGameEditor...
   Using Visual Studio 2019 14.29.30153 toolchain (Z:\VisualStudio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 4 actions with 12 processes...
-    [1/4] FightingGameCharacter.cpp
-Z:\Unreal Projects\FightingGame\Source\FightingGame\FightingGameCharacter.h(44): warning C4263: 'void AFightingGameCharacter::TakeDamage(float)': member function does not override any base class virtual member function
-Z:\Unreal Projects\FightingGame\Source\FightingGame\FightingGameCharacter.h(58): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+  Building 11 actions with 12 processes...
+    [1/11] Default.rc2
+    [2/11] SharedPCH.Engine.ShadowErrors.cpp
+    [3/11] FightingGame.cpp
+    [4/11] FightingGame.init.gen.cpp
+    [5/11] FightingGameGameMode.cpp
+Z:\Unreal Projects\FightingGameUE\FightingGame\Source\FightingGame\FightingGameCharacter.h(44): warning C4263: 'void AFightingGameCharacter::TakeDamage(float)': member function does not override any base class virtual member function
+Z:\Unreal Projects\FightingGameUE\FightingGame\Source\FightingGame\FightingGameCharacter.h(62): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+    Z:\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(247): note: see declaration of 'APawn::TakeDamage'
+    Z:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h(14): note: see declaration of 'APawn'
+    [6/11] FightingGameGameMode.gen.cpp
+    [7/11] FightingGameCharacter.gen.cpp
+Z:\Unreal Projects\FightingGameUE\FightingGame\Source\FightingGame/FightingGameCharacter.h(44): warning C4263: 'void AFightingGameCharacter::TakeDamage(float)': member function does not override any base class virtual member function
+Z:\Unreal Projects\FightingGameUE\FightingGame\Source\FightingGame/FightingGameCharacter.h(62): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
     Z:\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(247): note: see declaration of 'APawn::TakeDamage'
     Z:\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/PlayerController.h(31): note: see declaration of 'APawn'
-    [2/4] UE4Editor-FightingGame-0003.lib
-       Creating library Z:\Unreal Projects\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-0003.lib and object Z:\Unreal Projects\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-0003.exp
-    [3/4] UE4Editor-FightingGame-0003.dll
-       Creating library Z:\Unreal Projects\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-0003.suppressed.lib and object Z:\Unreal Projects\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-0003.suppressed.exp
-    [4/4] FightingGameEditor.target
-  Total time in Parallel executor: 1.22 seconds
-  Total execution time: 1.70 seconds
+    [8/11] FightingGameCharacter.cpp
+Z:\Unreal Projects\FightingGameUE\FightingGame\Source\FightingGame\FightingGameCharacter.h(44): warning C4263: 'void AFightingGameCharacter::TakeDamage(float)': member function does not override any base class virtual member function
+Z:\Unreal Projects\FightingGameUE\FightingGame\Source\FightingGame\FightingGameCharacter.h(62): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+    Z:\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(247): note: see declaration of 'APawn::TakeDamage'
+    Z:\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/PlayerController.h(31): note: see declaration of 'APawn'
+    [9/11] UE4Editor-FightingGame-0001.lib
+       Creating library Z:\Unreal Projects\FightingGameUE\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-0001.lib and object Z:\Unreal Projects\FightingGameUE\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-0001.exp
+    [10/11] UE4Editor-FightingGame-0001.dll
+       Creating library Z:\Unreal Projects\FightingGameUE\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-0001.suppressed.lib and object Z:\Unreal Projects\FightingGameUE\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-0001.suppressed.exp
+    [11/11] FightingGameEditor.target
+  Total time in Parallel executor: 19.32 seconds
+  Total execution time: 35.38 seconds

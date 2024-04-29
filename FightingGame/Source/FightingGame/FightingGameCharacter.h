@@ -47,6 +47,10 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
 		float playerHealth;
 
+	// Has the player use the basic attack.
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Attacks")
+		bool wasFirstAttackUsed;
+
 
 public:
 	AFightingGameCharacter();
