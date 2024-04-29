@@ -32,8 +32,8 @@
 /wd4244
 /wd4838
 /I .
-/I "Z:\Unreal Projects\FightingGame\Intermediate\Build\Win64\UE4Editor\Inc\FightingGame"
-/I "Z:\Unreal Projects\FightingGame\Source"
+/I "Z:\Unreal Projects\FightingGameUE\FightingGame\Intermediate\Build\Win64\UE4Editor\Inc\FightingGame"
+/I "Z:\Unreal Projects\FightingGameUE\FightingGame\Source"
 /I Runtime
 /I Runtime\TraceLog\Public
 /I Runtime\Core\Public
@@ -262,12 +262,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
-/FI"Z:\Unreal Projects\FightingGame\Intermediate\Build\Win64\FightingGameEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"Z:\Unreal Projects\FightingGame\Intermediate\Build\Win64\FightingGameEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"Z:\Unreal Projects\FightingGame\Intermediate\Build\Win64\FightingGameEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"Z:\Unreal Projects\FightingGame\Intermediate\Build\Win64\UE4Editor\Inc\FightingGame\FightingGameGameMode.gen.cpp"
-/FI"Z:\Unreal Projects\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\Definitions.FightingGame.h"
-/Fo"Z:\Unreal Projects\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\FightingGameGameMode.gen.cpp.obj"
+/FI"Z:\Unreal Projects\FightingGameUE\FightingGame\Intermediate\Build\Win64\FightingGameEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"Z:\Unreal Projects\FightingGameUE\FightingGame\Intermediate\Build\Win64\FightingGameEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"Z:\Unreal Projects\FightingGameUE\FightingGame\Intermediate\Build\Win64\FightingGameEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"Z:\Unreal Projects\FightingGameUE\FightingGame\Intermediate\Build\Win64\UE4Editor\Inc\FightingGame\FightingGameGameMode.gen.cpp"
+/FI"Z:\Unreal Projects\FightingGameUE\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\Definitions.FightingGame.h"
+/Fo"Z:\Unreal Projects\FightingGameUE\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\FightingGameGameMode.gen.cpp.obj"
 /TP
 /GR-
 /W4

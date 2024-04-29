@@ -44,7 +44,9 @@ AFightingGameCharacter::AFightingGameCharacter()
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
 
+	// Initialize variables.
 	playerHealth = 1.00f;
+	wasFirstAttackUsed = false;
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -88,6 +90,7 @@ void AFightingGameCharacter::TouchStopped(const ETouchIndex::Type FingerIndex, c
 void AFightingGameCharacter::StartAttack1()
 {
 	UE_LOG(LogTemp, Warning, TEXT("Using Attack1."));
+	wasFirstAttackUsed = true;
 }
 
 void AFightingGameCharacter::StartAttack2()
