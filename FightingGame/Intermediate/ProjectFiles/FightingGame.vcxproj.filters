@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\FightingGame.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{36887063-0233-4B1B-A5A1-04E58379FF9E}</UniqueIdentifier>
+      <UniqueIdentifier>{F94D4062-C3AC-4753-97E3-B190C95B0DB3}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\FightingGame.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{EB8E1FB0-981C-4892-BF10-0BA4E79DFBED}</UniqueIdentifier>
+      <UniqueIdentifier>{F2B37CC4-3B79-4AAD-ABDC-7AFAFE00D687}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\FightingGame">
-      <UniqueIdentifier>{D6944484-07F9-4479-AC3F-D80688C270CB}</UniqueIdentifier>
+      <UniqueIdentifier>{808E38DF-1517-489F-AF34-EAE1BEFBCF71}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\FightingGame\FightingGame.Build.cs">
       <Filter>Source\FightingGame</Filter>
@@ -51,6 +51,12 @@
       <Filter>Source\FightingGame</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\FightingGame\FightingGameGameMode.h">
+      <Filter>Source\FightingGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FightingGame\HitboxActor.cpp">
+      <Filter>Source\FightingGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FightingGame\HitboxActor.h">
       <Filter>Source\FightingGame</Filter>
     </ClInclude>
   </ItemGroup>

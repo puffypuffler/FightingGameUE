@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "FightingGame",
-			"Path": "Z:\\Unreal Projects\\FightingGame\\Source\\FightingGame.Target.cs",
+			"Path": "Z:\\Unreal Projects\\FightingGameUE\\FightingGame\\Source\\FightingGame.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "FightingGameEditor",
-			"Path": "Z:\\Unreal Projects\\FightingGame\\Source\\FightingGameEditor.Target.cs",
+			"Path": "Z:\\Unreal Projects\\FightingGameUE\\FightingGame\\Source\\FightingGameEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

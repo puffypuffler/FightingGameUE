@@ -1,0 +1,5 @@
+Z:\Unreal Projects\FightingGameUE\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\Definitions.FightingGame.h
+Z:\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+Z:\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+Z:\Unreal Projects\FightingGameUE\FightingGame\Source\FightingGame/HitboxActor.h
+Z:\Unreal Projects\FightingGameUE\FightingGame\Intermediate\Build\Win64\UE4Editor\Inc\FightingGame\HitboxActor.generated.h
