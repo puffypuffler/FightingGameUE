@@ -41,7 +41,8 @@ protected:
 	// End of APawn interface
 
 	// Damage the player.
-	void TakeDamage(float damageAmount);
+	UFUNCTION(BlueprintCallable)
+		void TakeDamage(float damageAmount);
 
 	// Amount of health the character currently has.
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")

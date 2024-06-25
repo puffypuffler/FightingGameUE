@@ -14,8 +14,16 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define FIGHTINGGAME_FightingGameCharacter_generated_h
 
 #define FightingGame_Source_FightingGame_FightingGameCharacter_h_12_SPARSE_DATA
-#define FightingGame_Source_FightingGame_FightingGameCharacter_h_12_RPC_WRAPPERS
-#define FightingGame_Source_FightingGame_FightingGameCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define FightingGame_Source_FightingGame_FightingGameCharacter_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execTakeDamage);
+
+
+#define FightingGame_Source_FightingGame_FightingGameCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execTakeDamage);
+
+
 #define FightingGame_Source_FightingGame_FightingGameCharacter_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAFightingGameCharacter(); \
